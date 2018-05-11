@@ -1,0 +1,24 @@
+package com.johnemerson.projeto;
+
+public enum TipoResidencia {
+	
+	APARTAMENTO ("Apartamento"),
+	CASA("Casa");
+	
+	private String TipoResidencia;
+	
+	private TipoResidencia(String residencia){
+		this.TipoResidencia = residencia;
+	}
+
+	public String getTipoResidencia() {
+		return TipoResidencia;
+	}
+
+	public void setTipoResidencia(String tipoResidencia) {
+		TipoResidencia = tipoResidencia;
+	}
+	
+	
+	
+}
