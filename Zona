@@ -1,0 +1,22 @@
+package com.johnemerson.projeto;
+
+public enum Zona {
+	
+	URBANA ("Zona Urbana"),
+	SUBURBANA ("Zona Suburbana"),
+	RURAL ("Zona rural");
+	
+	private Zona (String zona){
+		this.TipoZona = TipoZona;
+	}
+	
+	private String TipoZona;
+
+	public String getTipoZona() {
+		return TipoZona;
+	}
+
+	public void setTipoZona(String tipoZona) {
+		TipoZona = tipoZona;
+	}
+}
