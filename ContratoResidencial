@@ -1,0 +1,7 @@
+package com.johnemerson.projeto;
+
+public class ContratoResidencial extends Contrato {
+	
+	private String endereco;
+	
+}
